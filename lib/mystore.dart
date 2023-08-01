@@ -35,6 +35,7 @@ class _mystoreState extends State<mystore> {
           FloatingActionButton(onPressed: (){
            int sum=int.parse(name!)+int.parse(name2!);
             print(sum);
+            print("hello");
           })
         ],
 
